@@ -1,0 +1,69 @@
+2020-05-05 19:33:10.576  INFO 15744 --- [main] com.example.elk.ElkApplication           : Starting ElkApplication on DESKTOP-PHF1GB8 with PID 15744 (D:\ELK\elk\target\classes started by denis in D:\ELK\elk)
+2020-05-05 19:33:10.579  INFO 15744 --- [main] com.example.elk.ElkApplication           : No active profile set, falling back to default profiles: default
+2020-05-05 19:33:11.648  INFO 15744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-05 19:33:11.654  INFO 15744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-05 19:33:11.654  INFO 15744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 19:33:11.731  INFO 15744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-05 19:33:11.731  INFO 15744 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1089 ms
+2020-05-05 19:33:12.164  INFO 15744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 19:33:12.443  INFO 15744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 19:33:12.446  INFO 15744 --- [main] com.example.elk.ElkApplication           : Started ElkApplication in 2.321 seconds (JVM running for 3.087)
+2020-05-05 19:33:39.608  INFO 15744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 19:33:39.608  INFO 15744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-05 19:33:39.623  INFO 15744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-05-05 19:33:39.650  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:39 MSK 2020
+2020-05-05 19:33:39.666  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:39 MSK 2020
+2020-05-05 19:33:51.941  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:51 MSK 2020
+2020-05-05 19:33:51.945  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:51 MSK 2020
+2020-05-05 19:33:52.513  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:52 MSK 2020
+2020-05-05 19:33:52.517  INFO 15744 --- [http-nio-8080-exec-6] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:52 MSK 2020
+2020-05-05 19:33:52.791  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:52 MSK 2020
+2020-05-05 19:33:52.795  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:52 MSK 2020
+2020-05-05 19:33:53.000  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.010  INFO 15744 --- [http-nio-8080-exec-10] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.247  INFO 15744 --- [http-nio-8080-exec-2] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.249  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.432  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.443  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.625  INFO 15744 --- [http-nio-8080-exec-6] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.629  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.838  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:33:53.848  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:33:53 MSK 2020
+2020-05-05 19:45:53.246  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:53.251  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:53.718  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:53.719  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:53.945  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:53.948  INFO 15744 --- [http-nio-8080-exec-6] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:45:53 MSK 2020
+2020-05-05 19:45:54.116  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:45:54 MSK 2020
+2020-05-05 19:45:54.124  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:45:54 MSK 2020
+2020-05-05 19:47:44.963  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 19:47:44 MSK 2020
+2020-05-05 19:47:44.964  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 19:47:44 MSK 2020
+2020-05-05 20:04:37.435  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:04:37 MSK 2020
+2020-05-05 20:04:37.441  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:04:37 MSK 2020
+2020-05-05 20:04:38.003  INFO 15744 --- [http-nio-8080-exec-2] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:04:38 MSK 2020
+2020-05-05 20:04:38.005  INFO 15744 --- [http-nio-8080-exec-10] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:04:38 MSK 2020
+2020-05-05 20:04:38.273  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:04:38 MSK 2020
+2020-05-05 20:04:38.277  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:04:38 MSK 2020
+2020-05-05 20:05:35.694  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:35 MSK 2020
+2020-05-05 20:05:35.696  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:35 MSK 2020
+2020-05-05 20:05:36.178  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:36.182  INFO 15744 --- [http-nio-8080-exec-6] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:36.558  INFO 15744 --- [http-nio-8080-exec-2] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:36.560  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:36.859  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:36.862  INFO 15744 --- [http-nio-8080-exec-10] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:36 MSK 2020
+2020-05-05 20:05:37.134  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:37.135  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:37.484  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:37.488  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:37.829  INFO 15744 --- [http-nio-8080-exec-9] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:37.832  INFO 15744 --- [http-nio-8080-exec-6] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:37 MSK 2020
+2020-05-05 20:05:38.330  INFO 15744 --- [http-nio-8080-exec-3] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:38 MSK 2020
+2020-05-05 20:05:38.332  INFO 15744 --- [http-nio-8080-exec-2] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:38 MSK 2020
+2020-05-05 20:05:38.696  INFO 15744 --- [http-nio-8080-exec-10] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:38 MSK 2020
+2020-05-05 20:05:38.698  INFO 15744 --- [http-nio-8080-exec-7] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:38 MSK 2020
+2020-05-05 20:05:39.113  INFO 15744 --- [http-nio-8080-exec-4] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:39 MSK 2020
+2020-05-05 20:05:39.114  INFO 15744 --- [http-nio-8080-exec-1] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:39 MSK 2020
+2020-05-05 20:05:39.445  INFO 15744 --- [http-nio-8080-exec-8] com.example.elk.EKLController            : /elkdemo - &gt; Hello user ! Tue May 05 20:05:39 MSK 2020
+2020-05-05 20:05:39.448  INFO 15744 --- [http-nio-8080-exec-5] com.example.elk.EKLController            : /elk - &gt; Hello user ! Tue May 05 20:05:39 MSK 2020
